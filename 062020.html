@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>practice</title>
+
+<head>
+
+practice
+
+<link rel="stylesheet" type="text/css" href="062020.css">  
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/2eccc73e78.css">
+
+<!-- loading bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+<!-- Use relative paths when calling things like css files!! -->
+
+</head>
+
+
+
+<body>
+
+    <h1 class="headerStyle1 headerStyle2" id="headerStyle3">This is how you chain class and ID styles to an element.</h1>
+
+    <p id="idRed" class="headerStyle1" >Which takes priority?</p>
+
+    <p id="boxProps"><b>EVERY</b> element in CSS rests inside of its own box! That way you can manipulate (from outside in): margin, border, padding, and finally content which is the inside of the box itself.</p>
+
+    <div>
+
+        <p class="floatLeft" style="width:50%">Paragraphs, headers, divs, and more take up an entire line of space, as such they are called block elements. To fix this you can use float to arrange elements inline.</p>
+
+        <p class="floatRight">This is why your elements don't move to where you might expect</p>
+
+        <p class="floatRight">This sentence and the last are floated right inside a div.</p>
+
+    </div>
+
+    <span>
+        
+        <p class="floatLeft" style="width:50%">Paragraphs, headers, divs, and more take up an entire line of space, as such they are called block elements. To fix this you can use float to arrange elements inline.</p>
+
+        <p class="floatRight">This is why your elements don't move to where you might expect</p>
+
+        <p class="floatRight">This sentence and the last are floated right inside a span.</p>
+
+    </span>
+
+    <span>
+
+
+            
+            <p>First paragraph in a span.</p>
+
+
+       
+            
+            <p>Second paragraph in a span.</p>
+
+        
+
+    </span>
+
+    <div class="clearfix">
+
+        <p>Fun with the clearfix hack.</p>
+        <p>Go to <a href="css-tricks.com">css-tricks.com</a> for more information</p>
+    </div>
+
+    <div>
+        <h3>CSS Positioning</h3>
+        <p>Static: Boxes are what they are.</p>
+        <p>Relative: boxes can be nudged relative to their static position. E.g. push it up, down, left, right by a certain number of pixels from where it otherwise would have been.</p>
+        <p>Absolute: position relative to nearest position ancestor/parent (e.g. when it is nested). So if parent box has a lower bound at 400px, </p>
+        <p>Fixed: positioned to exact coordinates in the browser window. This is the most sensible way. Positions are not inherited from ancestors.</p>
+        
+        <div class="box1"><p>Here is a box positioned fixed 1000px from the top and 400 px from the left.</p></div>
+
+        <div class="box2"><p>Here is a box positioned relatively.</p></div>
+        
+        </div>
+
+        <div>
+            <p>reset.css is used to carpet-bomb clear all css</p>
+            <p>This is a good way to clear out css before you call your own, for example when certain browsers try to insert their own shenanegans into your code.</p>
+            <p>Download it <a href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">here</a>.</p>
+        </div>
+
+    <div class="wrapper04">
+
+
+        <div class="boxSize1">
+            <p>This is a box using box-border </p>
+        </div>
+
+        <section>
+            <p>This is a section. It helps search engines find it more efficiently and talk to screen readers better.</p>
+        </section>
+
+        <div>
+            <p>Divs are the traditional way of breaking up a page.</p>
+
+            <p>Have a look at the class 04 ppt for more information on these.<p>
+
+            <p>Follow the instructions on the homework, and failing that, follow your institution's protocol.</p>
+
+            <p>You can use classes for both divs and sections. IDs will only apply to one type of element.</p>
+
+            <p>Classes are the bomb.</p>
+
+            <p>Bro tip: if you open the editor in chrome with f12, you can play around with the code and change it to your liking. This isn't permanent, but it gives you an idea of what you might like to try!</p>
+
+
+        
+
+
+        <div class="boxSize1">
+            <p>I am a div with defined height and width.</p>
+        </div>
+
+        <div class="boxSize2">
+            <p>I am also a div but with auto height and width.</p>
+        </div>
+
+        <span class="boxSize2">
+            <p>I am the same as above but a span. Why my color no change when inside the green box?</p>
+        </span>
+  
+
+
+    </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="div05">
+        <h3>Class 05, June 25, 2020: Typography</h3>
+        <p class="balooFont">
+            To link your html to a chosen font in fonts.google.com, click on the one you want, select your styles, and choose "embed."
+        </p>
+        <p class="scriptFont">
+            This sentence is PHAT.
+        </p>
+
+        <p class="swankyFont">
+            Now this sentence stands out.
+        </p>
+    
+    </div>
+    <p>
+        Fun with <a href="https://fontawesome.com/icons?d=gallery" alt="Font-Awesome">Font Awesome</a>
+    </p>
+    <i class="fa fa-car"></i>
+    <i class="fa fa-car" style="font-size:48px;"></i>
+    <i class="fa fa-car" style="font-size:60px;color:red;"></i>
+    <i class="fab fa-apple-pay" style="font-size:48px;"></i>
+
+    <div class="div05">
+
+        <h3>Pseudo-classes</h3>
+        <p>These can be added to selectors to highlight their special states.</p>
+        <p>
+            <a href="www.google.com">This is a link with a hover psudeo-element that changes it to green and makes it bigger.</a>
+        </p>
+        <p>
+            The focus pseudo-element used above changes it when you click on it, or click and hold.
+        </p>
+        <p>
+            "Active" is used only for click-and-hold.
+        </p>
+
+        <p>
+            <a class="psFull" href="www.google.com">Using ::fullscreen</a>
+        </p>
+
+        <p>
+            <a class="psRight" href="www.google.com">Using ::right</a>
+        </p>
+
+        <p>
+            <a class="psInvalid" href="www.google.com">Using ::invalid</a>
+        </p>
+
+        <p>
+            <a href="https://www.1keydata.com/css-tutorial">Here</a> is a good CSS resource for more references.
+        </p>
+    </div>
+
+    <div class="div05">
+        <h3>Bootstrap</h3>
+        <p>
+            <a href="https://github.com/twbs/bootstrap">This</a> is the link to the github bootstrap material.
+        </p>
+        <p>
+            More documentation <a href="https://getbootstrap.com/">here.</a>
+        </p>
+        <p>
+            The stylesheet link: <span style="background-color: white">link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"</span>
+        </p>
+        <div class="alert alert-success" role="alert">
+            "Success" alert, taken directly from getbootstrap.com.
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." alt="Put image cap here" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="container-sm">
+            This is an AWESOME way to make your website functional and pretty in a hurry. Containers in particular also provide for ways to make the site look good across different media like computers, tablets, and phones.
+          </div>
+            <div class="row">
+                    <div class="col-sm-12 col-md-4">Containers in particular also provide for ways to make the site look good across different media like computers, tablets, and phones.</div>
+                    <div class="col-sm-12 col-md-4">These are custom columns inside of a row. Rows are divided into sections of 12.</div>
+                    <div class="col-sm-12 col-md-4">How does it look? The "md" parts of the columns should add up to 12.</div>
+          </div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,128 @@
+.headerStyle1 {
+    color: blue;
+}
+
+.headerStyle2 {
+    text-align: right;
+}
+
+#headerStyle3 {
+    font-family: impact;
+}
+
+#idRed {
+    color: red;
+}
+
+#boxProps {
+    margin: 20px 40px 60px 80px; 
+    /*remember top, right, bottom, left is the order */
+    border-width: 40px;
+    border-style: dashed;
+    border-color: red;
+    padding: 40px;
+    background-color: green;
+    color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.box1 {
+    position: fixed;
+    top: 1000px;
+    left: 40px;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    color: black;
+}
+
+.box2 {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    color: black;
+}
+
+.boxSize1 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    z-index: 2;
+    position: relative;
+    float: left;
+}
+
+.boxSize2 {
+    width: auto;
+    height: auto;
+    
+    float: left;
+    z-index: 2;
+    background-color: red;
+}
+
+.wrapper04 {
+    height: auto;
+    width: auto;
+    background-color: rgb(105, 226, 105);
+    z-index: 1;
+}
+
+.div05 {
+    background-color: rgb(85, 255, 85);
+    height: auto;
+    width: auto;
+}
+
+.balooFont {
+    font-family: 'Baloo Bhai 2';
+}
+
+.scriptFont {
+    font-family: 'Sacramento' , cursive;
+    font-size: 20px;
+}
+
+.swankyFont {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 20px;
+    color: magenta;
+    font-variant:small-caps; 
+}
+
+a:hover {
+    background-color: green;
+    font-size: 50px;
+}
+
+a:focus {
+    background-color: orange;
+}
+
+a:active {
+    background-color: blue;
+}
+
+a.psFull:fullscreen {
+    background-color: red;
+}
+
+a.psRight:right {
+    background-color: rgb(238, 255, 0);
+}
+
+a.psInvalid:invalid {
+    background-color: purple;
+}
