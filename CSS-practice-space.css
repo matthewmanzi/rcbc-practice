@@ -104,7 +104,9 @@
 
 a:hover {
     background-color: green;
+    /* Annoying so I disabled it
     font-size: 50px;
+    */
 }
 
 a:focus {
@@ -126,3 +128,17 @@ a.psRight:right {
 a.psInvalid:invalid {
     background-color: purple;
 }
+
+.June27-container {
+    background-color: hsla(180, 50%, 50%, 0.5)
+}
+
+.June27grid {
+    width: auto;
+    height: auto;
+}
+
+.sketching {
+    background-color: rgba(245, 53, 53, 0.5);
+}
+
